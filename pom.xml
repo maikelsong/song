@@ -19,6 +19,6 @@
   <modules>
   	<module>song-api</module>
   	<module>song-service</module>
-  	<module>song-consumer</module>
+  	<module>song-consumer</module> 
   </modules>
 </project>
