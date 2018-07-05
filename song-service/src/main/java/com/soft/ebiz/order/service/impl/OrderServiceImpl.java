@@ -18,6 +18,10 @@ import com.soft.ebiz.order.service.api.IOrderService;
  */
 public class OrderServiceImpl implements IOrderService {
 
+	public OrderServiceImpl(){
+		System.out.println("OrderServiceImpl+++++");
+	}
+	
 	public int addOrder() {
 		return 0;
 	}
