@@ -9,7 +9,10 @@
  * 修改人姓名             修改时间            版本号                  描述
  */
 package com.soft.ebiz.order.service.impl;
+import java.util.List;
+
 import com.soft.ebiz.order.service.api.IOrderService;
+import com.soft.ebiz.order.service.vo.OrderVo;
 
 /**
  * 〈功能详细描述〉
@@ -24,6 +27,10 @@ public class OrderServiceImpl implements IOrderService {
 	
 	public int addOrder() {
 		return 0;
+	}
+
+	public List<OrderVo> getOrderList(int userId) {
+		return null;
 	}
 
 }
